@@ -40,7 +40,7 @@
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:ModOfEverything"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -125,11 +125,11 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "block.moe.butter_mushroom": "Butter Mushroom",
+      "block.moe.butter_mushroom": "Масляный гриб",
       "item_group.moe.mod_of_everything": "Mod Of Everything",
-      "item.moe.butter": "Butter",
+      "item.moe.butter": "Масло",
       "block.moe.bug": "Баг",
-      "item.moe.tap": "Tap"
+      "item.moe.tap": "Кран"
     },
     "en_us": {
       "block.moe.butter_mushroom": "Butter Mushroom",
