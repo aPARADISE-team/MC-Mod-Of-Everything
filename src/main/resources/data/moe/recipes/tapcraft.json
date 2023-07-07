@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "AAA",
+    "  A"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "item": "moe:tap",
+    "count": 1
+  }
+}

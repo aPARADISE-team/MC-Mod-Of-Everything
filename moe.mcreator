@@ -3,6 +3,7 @@
     {
       "name": "Bug",
       "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bug",
@@ -14,16 +15,128 @@
           "src/main/resources/assets/moe/models/block/bug.json"
         ]
       }
+    },
+    {
+      "name": "ModOfEverything",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod_of_everything",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Tap",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moe/models/item/tap.json",
+          "src/main/java/net/mcreator/moe/item/TapItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tapcraft",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tapcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moe/recipes/tapcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "ButterMushroomPriShchielchkiePKMPoRastieniiu",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_mushroom_pri_shchielchkie_pkm_po_rastieniiu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/procedures/ButterMushroomPriShchielchkiePKMPoRastieniiuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButterMushroom",
+      "type": "plant",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_mushroom",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moe/forge/biome_modifier/butter_mushroom_biome_modifier.json",
+          "src/main/resources/assets/moe/models/item/butter_mushroom.json",
+          "src/main/java/net/mcreator/moe/world/features/plants/ButterMushroomFeature.java",
+          "src/main/resources/data/moe/worldgen/configured_feature/butter_mushroom.json",
+          "src/main/resources/data/moe/worldgen/placed_feature/butter_mushroom.json",
+          "src/main/resources/assets/moe/blockstates/butter_mushroom.json",
+          "src/main/java/net/mcreator/moe/block/ButterMushroomBlock.java",
+          "src/main/resources/assets/moe/models/block/butter_mushroom.json"
+        ]
+      }
+    },
+    {
+      "name": "Butter",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moe/models/item/butter.json",
+          "src/main/java/net/mcreator/moe/item/ButterItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ButterCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moe/recipes/butter_craft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "block.moe.bug": "Баг"
+      "block.moe.butter_mushroom": "Butter Mushroom",
+      "item_group.moe.mod_of_everything": "Mod Of Everything",
+      "item.moe.butter": "Butter",
+      "block.moe.bug": "Баг",
+      "item.moe.tap": "Tap"
     },
     "en_us": {
-      "block.moe.bug": "Bug"
+      "block.moe.butter_mushroom": "Butter Mushroom",
+      "item_group.moe.mod_of_everything": "Mod Of Everything",
+      "item.moe.butter": "Butter",
+      "block.moe.bug": "Bug",
+      "item.moe.tap": "Tap"
     }
   },
   "foldersRoot": {
@@ -35,7 +148,7 @@
     "modName": "Mod Of Everything By Bufka2011",
     "version": "0.0.3",
     "description": "MC Mod Of Everything.",
-    "author": "PARADISE team - Bufka2011, GameRuBe; MCreator",
+    "author": "PARADISE team, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
@@ -45,7 +158,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "credits": "Bufka2011, GameRuBe, MCreator",
     "modElementsPackage": "net.mcreator.moe",
     "lockBaseModFiles": false
   },

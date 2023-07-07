@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dark_forest",
+  "features": "moe:butter_mushroom",
+  "step": "vegetal_decoration"
+}

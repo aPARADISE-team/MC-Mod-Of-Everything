@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.moe.init.MoeModItems;
+import net.mcreator.moe.init.MoeModFeatures;
 import net.mcreator.moe.init.MoeModBlocks;
 
 import java.util.function.Supplier;
@@ -52,6 +53,8 @@ public class MoeMod {
 
 		MoeModBlocks.REGISTRY.register(bus);
 		MoeModItems.REGISTRY.register(bus);
+
+		MoeModFeatures.REGISTRY.register(bus);
 
 	}
 
