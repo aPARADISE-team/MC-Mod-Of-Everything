@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "moe:block/bug",
+    "up": "moe:block/bug",
+    "north": "moe:block/bug",
+    "east": "moe:block/bug",
+    "south": "moe:block/bug",
+    "west": "moe:block/bug",
+    "particle": "moe:block/bug"
+  },
+  "render_type": "solid"
+}

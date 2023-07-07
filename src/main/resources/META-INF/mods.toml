@@ -4,11 +4,11 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="moe"
-version="1.0.0"
+version="0.0.1"
 displayName="Mod Of Everything By Bufka2011"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="Childs, MCreator"
+authors="PARADISE team - Bufka2011, GameRuBe; MCreator"
 
 [[dependencies.moe]]
     modId="minecraft"

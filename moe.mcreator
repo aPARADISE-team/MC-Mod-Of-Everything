@@ -1,9 +1,30 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Bug",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/block/BugBlock.java",
+          "src/main/resources/assets/moe/blockstates/bug.json",
+          "src/main/resources/assets/moe/models/item/bug.json",
+          "src/main/resources/assets/moe/models/block/bug.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "ru_ru": {
+      "block.moe.bug": "Баг"
+    },
+    "en_us": {
+      "block.moe.bug": "Bug"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -12,8 +33,8 @@
   "workspaceSettings": {
     "modid": "moe",
     "modName": "Mod Of Everything By Bufka2011",
-    "version": "1.0.0",
-    "author": "Childs, MCreator",
+    "version": "0.0.1",
+    "author": "PARADISE team - Bufka2011, GameRuBe; MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,

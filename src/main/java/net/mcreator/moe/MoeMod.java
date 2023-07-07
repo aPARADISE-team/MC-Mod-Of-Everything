@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.moe.init.MoeModItems;
+import net.mcreator.moe.init.MoeModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -46,6 +49,9 @@ public class MoeMod {
 	public MoeMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MoeModBlocks.REGISTRY.register(bus);
+		MoeModItems.REGISTRY.register(bus);
 
 	}
 
