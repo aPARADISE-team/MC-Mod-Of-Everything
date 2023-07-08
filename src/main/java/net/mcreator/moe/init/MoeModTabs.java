@@ -24,6 +24,7 @@ public class MoeModTabs {
 					tabData.accept(MoeModItems.BUTTER.get());
 					tabData.accept(MoeModItems.HANDLE.get());
 					tabData.accept(MoeModItems.OMEGACARROTSEEDS.get());
+					tabData.accept(MoeModItems.OMEGA_CARROT_ITEM.get());
 				})
 
 		);

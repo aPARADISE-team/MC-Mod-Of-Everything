@@ -274,6 +274,68 @@
           }
         ]
       }
+    },
+    {
+      "name": "OmegacarrotPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrot_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/procedures/OmegacarrotPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OmegaCarrotItem",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omega_carrot_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moe/models/item/omega_carrot_item.json",
+          "src/main/java/net/mcreator/moe/item/OmegaCarrotItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OmegaCarrotLootTable",
+      "type": "loottable",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omega_carrot_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moe/loot_tables/blocks/omegacarrot_3.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -282,25 +344,27 @@
     "ru_ru": {
       "block.moe.butter_mushroom": "Масляный гриб",
       "item_group.moe.mod_of_everything": "Mod Of Everything",
-      "item.moe.omegacarrotseeds": "Omega Сarrot seeds",
+      "item.moe.omegacarrotseeds": "Семена Омега-моркови",
       "item.moe.butter": "Масло",
+      "item.moe.omega_carrot_item": "Omega Carrot",
       "block.moe.bug": "Баг",
       "item.moe.tap": "Кран",
       "item.moe.handle": "Ручка",
-      "block.moe.omegacarrot_3": "Omega carrot 1",
-      "block.moe.omegacarrot_2": "Omega carrot 1",
-      "block.moe.omegacarrot_1": "Omega carrot 1"
+      "block.moe.omegacarrot_3": "Омега-морковь",
+      "block.moe.omegacarrot_2": "Омега-морковь",
+      "block.moe.omegacarrot_1": "Омега-морковь"
     },
     "en_us": {
       "block.moe.butter_mushroom": "Butter Mushroom",
       "item_group.moe.mod_of_everything": "Mod Of Everything",
       "item.moe.omegacarrotseeds": "Omega Сarrot seeds",
       "item.moe.butter": "Butter",
+      "item.moe.omega_carrot_item": "Omega Carrot",
       "block.moe.bug": "Bug",
       "item.moe.tap": "Tap",
       "item.moe.handle": "Handle",
-      "block.moe.omegacarrot_3": "Omega carrot 1",
-      "block.moe.omegacarrot_2": "Omega carrot 1",
+      "block.moe.omegacarrot_3": "Omega carrot",
+      "block.moe.omegacarrot_2": "Omega carrot",
       "block.moe.omegacarrot_1": "Omega carrot 1"
     }
   },

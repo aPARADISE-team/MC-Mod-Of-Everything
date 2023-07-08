@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.moe.item.TapItem;
 import net.mcreator.moe.item.OmegacarrotseedsItem;
+import net.mcreator.moe.item.OmegaCarrotItemItem;
 import net.mcreator.moe.item.HandleItem;
 import net.mcreator.moe.item.ButterItem;
 import net.mcreator.moe.MoeMod;
@@ -29,6 +30,7 @@ public class MoeModItems {
 	public static final RegistryObject<Item> OMEGACARROT_1 = block(MoeModBlocks.OMEGACARROT_1);
 	public static final RegistryObject<Item> OMEGACARROT_2 = block(MoeModBlocks.OMEGACARROT_2);
 	public static final RegistryObject<Item> OMEGACARROT_3 = block(MoeModBlocks.OMEGACARROT_3);
+	public static final RegistryObject<Item> OMEGA_CARROT_ITEM = REGISTRY.register("omega_carrot_item", () -> new OmegaCarrotItemItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
