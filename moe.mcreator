@@ -119,6 +119,161 @@
           "src/main/resources/data/moe/recipes/butter_craft.json"
         ]
       }
+    },
+    {
+      "name": "Handle",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/item/HandleItem.java",
+          "src/main/resources/assets/moe/models/item/handle.json"
+        ]
+      }
+    },
+    {
+      "name": "HandleCraft",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handle_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/moe/recipes/handle_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "Omegacarrotseeds",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrotseeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moe/models/item/omegacarrotseeds.json",
+          "src/main/java/net/mcreator/moe/item/OmegacarrotseedsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OmegacarrotObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrot_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/procedures/OmegacarrotObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Omegacarrot",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrot_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moe/models/block/omegacarrot_1.json",
+          "src/main/resources/assets/moe/models/item/omegacarrot_1.json",
+          "src/main/resources/assets/moe/blockstates/omegacarrot_1.json",
+          "src/main/java/net/mcreator/moe/block/OmegacarrotBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Omegacarrot2",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrot_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/block/Omegacarrot2Block.java",
+          "src/main/resources/assets/moe/models/item/omegacarrot_2.json",
+          "src/main/resources/assets/moe/blockstates/omegacarrot_2.json",
+          "src/main/resources/assets/moe/models/block/omegacarrot_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Omegacarrot3",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrot_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/moe/models/item/omegacarrot_3.json",
+          "src/main/resources/assets/moe/models/block/omegacarrot_3.json",
+          "src/main/java/net/mcreator/moe/block/Omegacarrot3Block.java",
+          "src/main/resources/assets/moe/blockstates/omegacarrot_3.json"
+        ]
+      }
+    },
+    {
+      "name": "OmegacarrotseedsPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "omegacarrotseeds_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/moe/procedures/OmegacarrotseedsPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -127,16 +282,26 @@
     "ru_ru": {
       "block.moe.butter_mushroom": "Масляный гриб",
       "item_group.moe.mod_of_everything": "Mod Of Everything",
+      "item.moe.omegacarrotseeds": "Omega Сarrot seeds",
       "item.moe.butter": "Масло",
       "block.moe.bug": "Баг",
-      "item.moe.tap": "Кран"
+      "item.moe.tap": "Кран",
+      "item.moe.handle": "Ручка",
+      "block.moe.omegacarrot_3": "Omega carrot 1",
+      "block.moe.omegacarrot_2": "Omega carrot 1",
+      "block.moe.omegacarrot_1": "Omega carrot 1"
     },
     "en_us": {
       "block.moe.butter_mushroom": "Butter Mushroom",
       "item_group.moe.mod_of_everything": "Mod Of Everything",
+      "item.moe.omegacarrotseeds": "Omega Сarrot seeds",
       "item.moe.butter": "Butter",
       "block.moe.bug": "Bug",
-      "item.moe.tap": "Tap"
+      "item.moe.tap": "Tap",
+      "item.moe.handle": "Handle",
+      "block.moe.omegacarrot_3": "Omega carrot 1",
+      "block.moe.omegacarrot_2": "Omega carrot 1",
+      "block.moe.omegacarrot_1": "Omega carrot 1"
     }
   },
   "foldersRoot": {
@@ -146,7 +311,7 @@
   "workspaceSettings": {
     "modid": "moe",
     "modName": "Mod Of Everything By Bufka2011",
-    "version": "0.0.3",
+    "version": "0.0.6",
     "description": "MC Mod Of Everything.",
     "author": "PARADISE team, MCreator",
     "websiteURL": "https://mcreator.net",

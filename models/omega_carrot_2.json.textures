@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "omega_carrot_2",
+        "1": "omega_carrot_2_top",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

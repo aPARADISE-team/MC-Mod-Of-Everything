@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "omega_carrot_0",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

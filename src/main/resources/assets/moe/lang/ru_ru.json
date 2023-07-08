@@ -1,7 +1,12 @@
 {
   "block.moe.butter_mushroom": "Масляный гриб",
   "item_group.moe.mod_of_everything": "Mod Of Everything",
+  "item.moe.omegacarrotseeds": "Omega Сarrot seeds",
   "item.moe.butter": "Масло",
   "block.moe.bug": "Баг",
-  "item.moe.tap": "Кран"
+  "item.moe.tap": "Кран",
+  "item.moe.handle": "Ручка",
+  "block.moe.omegacarrot_3": "Omega carrot 1",
+  "block.moe.omegacarrot_2": "Omega carrot 1",
+  "block.moe.omegacarrot_1": "Omega carrot 1"
 }
